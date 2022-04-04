@@ -6,8 +6,8 @@ using std::string;
 
 class Operacao{
     public:
-        void cadastro (string nome, string senha, string email,string nivel, int telefone){
-            cout << "cadastro de usuári realizado \n";
+        void cadastro (string nome, string senha, string email,string nivel){
+            cout << "cadastro do usuário realizado com sucesso\n";
         }
         string login(string usario, string senha){
             return "Seja bem vindo! \n";
